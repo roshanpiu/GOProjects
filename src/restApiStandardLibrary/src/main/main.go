@@ -4,8 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"../handlers"
-	"../storage"
+	"github.com/arschles/go-in-5-minutes/episode1/storage"
+	"github.com/arschles/go-in-5-minutes/episode1/handlers"
+
 )
 
 func main() {

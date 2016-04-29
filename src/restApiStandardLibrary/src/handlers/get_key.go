@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"../storage"
+	"github.com/arschles/go-in-5-minutes/episode1/storage"
 )
 
 // GetKey returns an http.Handler that can get a key registered by Gorilla mux

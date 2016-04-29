@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"../storage"
+	"github.com/arschles/go-in-5-minutes/episode1/handlers"
 )
 
 // PutKey returns an http.Handler that can set a value for the key registered by Gorilla
